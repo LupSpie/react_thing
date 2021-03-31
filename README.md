@@ -1,3 +1,3 @@
-# For school
+# Aula 02
 
-Learning react, very fun 😢
+"backup" da aula 01 de react referente a tarefa de react para entregar de 22/03 a 02/04.
