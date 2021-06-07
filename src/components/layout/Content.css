@@ -1,8 +1,38 @@
 .Content {
     display: flex;
     flex: 1;
-    justify-content: center;
     background-color: #000;
     color: #fff;
-    padding: 30px;
+    padding: 20px;
+}
+
+.Content > * {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.title {
+    background-color: #d3d3d3f8;
+    border-bottom: 5px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #14273e;
+    text-align: center;
+}
+
+.title h1,
+h2 {
+    margin: 0;
+}
+
+.conteudo {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
 }

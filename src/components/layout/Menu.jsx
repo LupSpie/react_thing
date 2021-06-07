@@ -7,19 +7,31 @@ const Menu = (props) => (
         <nav>
             <ul>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link to='/'>Hooks</Link>
                 </li>
                 <li>
-                    <Link to='/content01/123'>Conteúdo 01</Link>
+                    <Link to='/UseState'>useState()</Link>
                 </li>
                 <li>
-                    <Link to='/content02'>Conteúdo 02</Link>
+                    <Link to='/UseEffect'>useEffect()</Link>
                 </li>
                 <li>
-                    <Link to='/content03'>Conteúdo 03</Link>
+                    <Link to='/UseRef'>useRef()</Link>
                 </li>
                 <li>
-                    <Link to='/content04'>Conteúdo 04</Link>
+                    <Link to='/UseMemo'>useMemo()</Link>
+                </li>
+                <li>
+                    <Link to='/UseCallback'>useCallback()</Link>
+                </li>
+                <li>
+                    <Link to='/UseContext'>useContext()</Link>
+                </li>
+                <li>
+                    <Link to='/UseReducer'>useReducer()</Link>
+                </li>
+                <li>
+                    <Link to='/UseMyHook'>useMeuHook()</Link>
                 </li>
             </ul>
         </nav>

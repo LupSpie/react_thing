@@ -1,0 +1,8 @@
+.error {
+    align-self: center;
+    background-color: #d3d3d3;
+    border-bottom: 5px solid #808080;
+    margin-bottom: 20px;
+    color: #14273e;
+    text-align: center;
+}
